@@ -10,3 +10,5 @@ class TestCalculator(unittest.TestCase):
 
     def test_dodwanie_dwoch_slow(self):
         self.assertRaises(Exception, Calculator, 'text', 'text')
+
+print('Hello darkness')
